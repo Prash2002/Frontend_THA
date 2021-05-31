@@ -1,0 +1,12 @@
+body{
+    padding: 10px 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-left: 5px dotted gainsboro;
+    background-color: whitesmoke;
+}
+
+
+.addr{
+    color: grey;
+}
