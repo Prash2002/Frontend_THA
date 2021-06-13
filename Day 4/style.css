@@ -1,34 +1,50 @@
+
 .circle{
     margin: auto;
     border-radius: 50%;
     border: 40px solid red;
-    width: 355px;
-    height:355px;
+    width: 340px;
+    height:340px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  25px 25px 49px #bcbcbc,
+                -25px -25px 49px #ffffff;
+}
+
+.center{
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(160px, 175px);
 }
 
 .hour-hand{
-    background-color: black;
-    width: 145px;
-    height: 4px;
+    /* background-color: black; */
+    border: 4px solid black;
+    border-radius: 30%;
+    width: 125px;
+    height: 3px;
     transform-origin: left;
-    transform: translate(170px,170px) rotate(180deg);
+    transform: translate(170px,165px) rotate(180deg);
 }
 
 .min-hand{
     
-    background-color: black;
-    width: 155px;
-    height: 3px;
+    /* background-color: black; */
+    border: 4px solid black;
+    border-radius: 30%;
+    width: 140px;
+    height: 4px;
     transform-origin: left;
-    transform: translate(170px,170px) rotate(135deg);
+    transform: translate(165px,153px) rotate(135deg);
 }
 
 
 .second-hand{
     
     background-color: black;
-    width: 175px;
+    width: 160px;
     height: 2.5px;
     transform-origin: left;
-    transform: translate(170px,165px) rotate(90deg);
+    transform: translate(165px,145px) rotate(90deg);
 }

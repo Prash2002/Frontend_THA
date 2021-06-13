@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    font-size: 20px;
+    color:rgb(255, 82, 82);
+}
+body{
+    background-color: rgb(255, 250, 242);
+    height: 80vh;
+}
+.form{
+    margin: auto;
+    background-color: blanchedalmond;
+    width: 500px;
+    margin-top: 50px;
+    padding: 50px 50px;
+    border-radius: 5%;
+}
+
+.heading{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    color: rgb(255, 50, 84);
+}
+
+.form > div{
+    margin: 20px;
+}
+
+label{
+    padding-right: 20px;
+}
+
+.btn{
+    text-align:center;
+    width: 500px;
+}
+
+button{
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 115, 115);
+    border-radius: 50%;
+    color: rgb(252, 243, 231);
+    border: none;
+}
+
+.answer{
+    text-align: center;
+    font-size: 30px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px rgb(151, 59, 59);
+}
+
+input:hover, input:focus{
+    box-shadow: 1.5px 1.5px rgb(255, 115, 115);
+}
+
