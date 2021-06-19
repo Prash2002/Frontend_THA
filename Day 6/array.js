@@ -22,6 +22,10 @@ console.log(array_Clone([1, 2, [4, 0]]));
 // first 'n' elements of the array.
 
 function first(arr, n=1){
+    if(n<=0){
+
+        return [];
+    }
     return arr.slice(0,n);
 }
 
@@ -30,3 +34,32 @@ console.log(first([],3));
 console.log(first([7, 9, 0, -2],3));
 console.log(first([7, 9, 0, -2],6));
 console.log(first([7, 9, 0, -2],-3));
+
+
+//Write a simple JavaScript program to join all elements of the 
+// following array into a string.
+
+const myColor = ["Red", "Green", "White", "Black"];
+console.log(myColor.join());
+console.log(myColor.join(" "));
+console.log(myColor.join("+"));
+
+//Write a JavaScript program to find the most frequent 
+// item of an array
+
+var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+arr1.sort();
+let temp= 0;
+let x=0;
+let ans = arr1[0];
+for(let i=1; i<arr1.length; i+=x){
+    x = arr1.lastIndexOf(arr1[i]) + 1 - i;
+    if(x>temp){
+        temp= x;
+        ans = arr1[i];
+    }
+}
+console.log(`${ans} (${temp} times)`);
+
+
+
