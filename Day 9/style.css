@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(240, 210, 210);
+}
+.screen{
+    margin: auto;
+    height: 15px;
+    width: 500px;
+    background-color: rgb(109, 18, 18);
+    border-radius: 0 0 20px 20px;
+}
+
+.hall{
+    padding: 5px 0;
+    margin: 50px auto;
+    margin-bottom: 0;
+    background-color: rgb(243, 226, 226);
+    width: 80vw;
+    /* min-height: 80vh; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 12vw;
+    height: 75px;
+    margin: 0.6vw;
+    background-color: rgb(184, 82, 74);
+    /* border-radius: 5px; */
+}
+
+.vals{
+    text-decoration:double;
+    font-size: 22px;
+    width: 70vw;
+    margin: 10px auto;
+}
+
+.booked{
+    float: left;
+    text-align: center;
+    width: 30vw;
+}
+.remain{
+    float: right;
+    text-align: center;
+    width: 30vw;
+}
+
+.box:hover{
+    box-shadow: 3px 3px rgb(114, 18, 18);
+    cursor: pointer;
+    background-color: rgb(255, 179, 174);
+}
+
+.clicked{
+    background-color: rgb(107, 20, 14);
+}
+.clicked:hover{
+    background-color: rgb(167, 51, 43);
+    box-shadow: 3px 3px rgb(114, 18, 18);
+    cursor: pointer;
+}
