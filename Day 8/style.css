@@ -1,0 +1,39 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #d63a3a;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #dc4444;
+}
+
+.box:hover{
+	cursor: pointer;
+	background: #dc4444;
+}
+
+.boxclick{
+	background: white;
+	border: 1px solid #fff;
+}
+
+.boxclick:hover{
+	background: #eaeaea;
+}

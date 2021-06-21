@@ -6,6 +6,7 @@
     const rv = document.querySelector(".rv");
 
     for(let i=0; i<36; i++){
+        
         hall.innerHTML += '    <div class="box"></div>';
     }
 
