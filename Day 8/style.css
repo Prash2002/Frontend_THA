@@ -22,6 +22,7 @@
 	width: 18px;
 	height: 18px;
 	border: 1px solid #dc4444;
+	transition: background 300ms ease-in ;
 }
 
 .box:hover{
