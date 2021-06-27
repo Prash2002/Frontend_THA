@@ -28,8 +28,10 @@ let count =0;
 let moves =0;
 let no_of_pairs = 6;
 let gameEnd = false;
+let found =[];
 
 function foundCard(){
+    found.push(pi1, pi2);
     cards[pi1].classList.add("cardFound");
     cards[pi2].classList.add("cardFound");
     if(no_of_pairs===0){
@@ -57,7 +59,7 @@ function cardBreak(){
 
 for(let i=0; i<12; i++){
     cards[i].addEventListener('click', ()=>{
-        if(!gameEnd && (pi1!==i || pi2!==i)){
+        if(!gameEnd && (pi1!==i || pi2!==i) && !(found.includes(i))){
             moves++;
             points.innerHTML = `${moves}`;
             count++;
