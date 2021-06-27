@@ -26,13 +26,20 @@ let purl='';
 let pi1=-1, pi2=-2;
 let count =0;
 let moves =0;
+let no_of_pairs = 6;
+let gameEnd = false;
 
 function foundCard(){
     cards[pi1].classList.add("cardFound");
     cards[pi2].classList.add("cardFound");
+    if(no_of_pairs===0){
+        document.querySelector(".end").style.fontSize="60px";
+        gameEnd = true;
+    }
 }
 
 function cardClicked(i){  
+    cards[i].style.opacity= "100%";
     cards[i].style.transition = "all 300ms ease-in";
     cards[i].style.backgroundImage = urls[i];
     cards[i].style.backgroundSize = "150px";
@@ -44,53 +51,42 @@ function cardBreak(){
     cards[pi2].style.background="#D3D0CB";
     cards[pi1].style.transform ="rotateY( 0deg )";
     cards[pi2].style.transform ="rotateY( 0deg )";
+    cards[pi1].style.opacity= "50%";
+    cards[pi2].style.opacity= "50%";
 }
 
 for(let i=0; i<12; i++){
     cards[i].addEventListener('click', ()=>{
-        moves++;
-        points.innerHTML = `${moves}`;
-        count++;
-        if(count===3){
-            count=1;
-            purl="";
-            cards[pi1].style.background="#D3D0CB";
-            cards[pi2].style.background="#D3D0CB";
-            cards[pi1].style.transform ="rotateY( 0deg )";
-            cards[pi2].style.transform ="rotateY( 0deg )";
-        }
-        if(count===1){
-            pi1=i;
-        }
-        if(count===2){
-            pi2=i;
-            setTimeout(cardBreak, 3000);
-        }
-        if(pi1!==pi2){
-                cardClicked(i);
-                if(purl===urls[i]){
-                    setTimeout(foundCard, 400);
+        if(!gameEnd && (pi1!==i || pi2!==i)){
+            moves++;
+            points.innerHTML = `${moves}`;
+            count++;
+            if(count===3){
+                count=1;
+                purl="";
+                cardBreak();
+            }
+            if(count===1){
+                pi1=i;
+            }
+            if(count===2){
+                pi2=i;
+            }
+            if(pi1!==pi2){
+                    cardClicked(i);
+                    if(purl===urls[i]){
+                        no_of_pairs--;
+                        setTimeout(foundCard, 400);
+                        
+                    }
+                    // else if(count===2){
+                    //     setTimeout(cardBreak, 1000);
+                    // }
+                    else{
+                        purl = urls[i];
+                    }  
                 }
-                else{
-                    purl = urls[i];
-                }  
-            
         }
+        
     });
 }
- 
-
-
-
-// const cardsClicked = document.querySelectorAll(".card-clicked");
-// for(let i=0; i<12; i++){
-//     cardsClicked[i].addEventListener('click', ()=>{
-//         // if(cards[i].classList.contains("card-clicked"))
-//         // {
-//             cardsClicked[i].style.animation= "card-rotate-back 2s ease-in";
-//         // }
-//         // else{
-//         //     cards[i].style.animation= "none";
-//         // }
-//     });
-// }
