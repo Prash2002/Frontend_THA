@@ -12,12 +12,22 @@ h1, p{
     width: clamp(650px ,900px,1000px);
     margin: auto;
 }
-.points{
-    line-height: 480px;
-    font-size: 90px;
+
+.score{
     float: left;
+}
+
+.points{
+    line-height: 100px;
+    font-size: 90px;
     text-align: center;
 }
+
+.highscore{
+    line-height: 250px;
+    font-size: 30px;
+}
+
 .game{
     position: relative;
     float: right;
