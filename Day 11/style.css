@@ -27,11 +27,26 @@ body{
     top:0;
     right:50px;
 }
+
+.set{
+    transition: all 2s ease-in;
+    position: relative;
+    /* width: 500vw;
+    display: flex;
+    flex-direction: row; */
+}
+
+
+
 .container{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
     color: white;
     width: clamp(400px, 50%, 800px);
     border-radius: 30px;
-    margin: 40px auto;
+    /* margin: 40px auto; */
     padding: 30px 70px;
     font-size: 30px;
     height: 60vh;
@@ -88,4 +103,17 @@ button:hover{
 .wrong:hover{
     background-color: rgb(168, 60, 60);
     color: #fda085;
+}
+
+.containerhide{
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+}
+
+.end{
+    line-height: 70vh;
+    font-size: 50px;
+    margin: auto;
+    color: white;
 }
