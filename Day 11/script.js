@@ -1,28 +1,28 @@
 //questions:
 let question_set=[
     {
-        question: "Sin City's cold and empty, no one's around to _____ me.",
-        option: ["dump","judge", "love", "hug"],
+        question: "\"If you win, you live, if you lose, you die. If you don't fight, you can't win.\"",
+        option: ["Naruto","Attack on titan", "One Piece", "Tokyo Ghoul"],
         answer: 1
     },
     {
-        question: "Sin City's cold and empty, no one's around to _____ me.",
-        option: ["dump","judge", "love", "hug"],
-        answer: 1
+        question: "\"I'll take a potato chip and eat it!\"",
+        option: ["Erased","Watamote", "Death note", "Violet Evergarden"],
+        answer: 2
     },
     {
-        question: "\"Sin City's cold and empty, no one's around to _____ me.\" - The Weeknd, 'Blinding Lights'",
-        option: ["dump","judge", "love", "hug"],
-        answer: 1
+        question: "\"Nico Nico Nii!\"",
+        option: ["K-On","Aikatsu!", "Love Live", "Free!"],
+        answer: 2
     },
     {
-        question: "Sin City's cold and empty, no one's around to _____ me.",
-        option: ["dump","judge", "love", "hug"],
-        answer: 1
+        question: "\"Omae wa mou shindeiru\"",
+        option: ["Sailor Moon","Jojo Bizzare Adventure", "Dragon Ball Z", "Fist of the north star"],
+        answer: 3
     },
     {
-        question: "Sin City's cold and empty, no one's around to _____ me.",
-        option: ["dump","judge", "love", "hug"],
+        question: "\"El Psy Congroo\"",
+        option: ["Detective Conan","Steins;gate", "Psycho-Pass", "Code Geass"],
         answer: 1
     },
 ]
