@@ -60,14 +60,14 @@ let q_visible = 0;
 let score=0;
 let sc_ele = document.querySelector(".score");
 let hs_ele = document.querySelector(".hs");
-if(localStorage.key(0)==="highscore"){
-    hs_ele.innerHTML = localStorage.getItem("highscore");
+if(localStorage.key(0)==="quiz_highscore"){
+    hs_ele.innerHTML = localStorage.getItem("quiz_highscore");
 }
 function endPage(){
-    if(localStorage.key(0)==='highscore'){
-        if(score>parseInt(localStorage.getItem("highscore"))){
+    if(localStorage.key(0)==='quiz_highscore'){
+        if(score>parseInt(localStorage.getItem("quiz_highscore"))){
             set.innerHTML= `<div class='end'>New Highscore! Your Score: ${score}/${n}</div>`;
-            localStorage.setItem("highscore", score);
+            localStorage.setItem("quiz_highscore", score);
             hs_ele.innerHTML = score;
 
         }
@@ -75,7 +75,7 @@ function endPage(){
     }
     else{
         set.innerHTML= `<div class='end'>New Highscore! Your Score: ${score}/${n}</div>`;
-        localStorage.setItem("highscore", score);
+        localStorage.setItem("quiz_highscore", score);
         hs_ele.innerHTML = score;
     }
 }

@@ -23,8 +23,8 @@ for(let i=0; i<12; i++){
 const cards = document.querySelectorAll(".card");
 const points = document.querySelector(".points");
 const hs = document.querySelector(".hs");
-if(localStorage.key(0)==='highscore'){
-    hs.innerHTML = localStorage.getItem('highscore');
+if(localStorage.key(0)==='card_highscore'){
+    hs.innerHTML = localStorage.getItem('card_highscore');
 }
 
 let purl='';
@@ -42,14 +42,14 @@ function foundCard(){
     if(no_of_pairs===0){
         document.querySelector(".end").style.fontSize="60px";
         gameEnd = true;
-        if(localStorage.key(0)==='highscore'){
-            if(parseInt(localStorage.getItem('highscore'))>moves){
-                localStorage.setItem('highscore', moves);
+        if(localStorage.key(0)==='card_highscore'){
+            if(parseInt(localStorage.getItem('card_highscore'))>moves){
+                localStorage.setItem('card_highscore', moves);
                 hs.innerHTML = moves;
             }
         }
         else{
-            localStorage.setItem('highscore', moves);
+            localStorage.setItem('card_highscore', moves);
             hs.innerHTML = moves;
         }
         
