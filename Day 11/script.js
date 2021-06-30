@@ -86,7 +86,10 @@ function nextQuestion(){
         endPage();
     }
     container[q_visible].style.zIndex = -n ;
+    
     q_visible++;
+
+
 }
 
 function answered(selected){
@@ -101,7 +104,13 @@ function answered(selected){
     else{
         btn[selected].classList.add("wrong");
     }
-    setTimeout(nextQuestion, 500)
+    
+    for(let j=q_visible*4; j<(1+q_visible)*4; j++){
+        btn[j].disabled = true;
+        // console.log(j);
+    }
+    
+    setTimeout(nextQuestion, 3500);
 }
 for(let i=0; i<4*n; i++){
     btn[i].addEventListener('click', ()=>{
