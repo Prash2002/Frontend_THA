@@ -75,36 +75,46 @@ function cardBreak(){
 
 for(let i=0; i<12; i++){
     cards[i].addEventListener('click', ()=>{
-        if(!gameEnd && (pi1!==i || pi2!==i) && !(found.includes(i))){
-            moves++;
-            points.innerHTML = `${moves}`;
-            count++;
-            if(count===3){
-                count=1;
-                purl="";
-                cardBreak();
+        if(!gameEnd &&  !(found.includes(i))){
+            if(count===1 && pi1===i ){
             }
-            if(count===1){
-                pi1=i;
+            else if(count===2 && pi2===i){
             }
-            if(count===2){
-                pi2=i;
-            }
-            if(pi1!==pi2){
-                    cardClicked(i);
-                    if(purl===urls[i]){
-                        no_of_pairs--;
-                        setTimeout(foundCard, 400);
-                        
-                    }
-                    // else if(count===2){
-                    //     setTimeout(cardBreak, 1000);
-                    // }
-                    else{
-                        purl = urls[i];
-                    }  
+            else{
+                // console.log(count);
+                // console.log(i);
+                // console.log(pi1);
+                moves++;
+                points.innerHTML = `${moves}`;
+                count++;
+                if(count===3){
+                    count=1;
+                    purl="";
+                    cardBreak();
                 }
-        }
+                if(count===1){
+                    pi1=i;
+                }
+                if(count===2){
+                    pi2=i;
+                }
+                if(pi1!==pi2){
+                        cardClicked(i);
+                        if(purl===urls[i]){
+                            no_of_pairs--;
+                            setTimeout(foundCard, 400);
+                            
+                        }
+                        // else if(count===2){
+                        //     setTimeout(cardBreak, 1000);
+                        // }
+                        else{
+                            purl = urls[i];
+                        }  
+                    }
+            }
+    
+            }
         
     });
 }
