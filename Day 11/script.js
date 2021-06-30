@@ -60,11 +60,11 @@ let q_visible = 0;
 let score=0;
 let sc_ele = document.querySelector(".score");
 let hs_ele = document.querySelector(".hs");
-if(localStorage.key(0)==="quiz_highscore"){
+if("quiz_highscore" in localStorage){
     hs_ele.innerHTML = localStorage.getItem("quiz_highscore");
 }
 function endPage(){
-    if(localStorage.key(0)==='quiz_highscore'){
+    if("quiz_highscore" in localStorage){
         if(score>parseInt(localStorage.getItem("quiz_highscore"))){
             set.innerHTML= `<div class='end'>New Highscore! Your Score: ${score}/${n}</div>`;
             localStorage.setItem("quiz_highscore", score);
