@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.img{
+    margin: 20px auto;
+    height: 70vh;
+    width: 70vh;
+    background-size: contain!important;
+    background-repeat:no-repeat!important;
+    transition: all 500ms ease-in;
+}
+
+button{
+    color: black;
+    padding: 10px;
+    background-color: white;
+    width: 280px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(146, 146, 146);
+}
