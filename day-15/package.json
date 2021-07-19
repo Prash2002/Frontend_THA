@@ -1,5 +1,5 @@
 {
-  "homepage": "https://prash2002.github.io/Frontend_THA/",
+  "homepage": "https://prash2002.github.io/Frontend_THA/day-15/",
   "name": "day-15",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
