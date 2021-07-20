@@ -1,6 +1,5 @@
 {
-  "homepage": "https://prash2002.github.io/Frontend_THA/day-15/",
-  "name": "day-15",
+  "name": "day-17",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +12,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
