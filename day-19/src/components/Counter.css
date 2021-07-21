@@ -1,0 +1,17 @@
+.ele{
+    display: inline-block;
+    margin-right: 20px;
+}
+button{
+    padding: 10px 20px;
+    border:0.1em solid #000000;
+    box-sizing: border-box;
+   font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+button:hover{
+    color:#ffffff;
+    background-color:#000000;
+}
