@@ -11,7 +11,9 @@ const Calory = (props) => {
     }
     
     function deleteItem(){
-        console.log("oho")
+        console.log(props)
+        var x = props.it.filter((i)=>i.id!==props.id);
+        props.itSt(x)
     }
 
     return (
