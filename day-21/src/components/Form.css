@@ -1,0 +1,80 @@
+form{
+    border: 2px solid white;
+    width: min(80vw, 800px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 80px;
+}
+
+label{
+    font-size: 22px;
+    line-height: 80px;
+    margin: 10px;
+}
+
+input{
+    padding: 7px;
+}
+
+label:nth-child(3){
+    margin-left: 50px;
+}
+button{
+    margin-left: 40px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.item{
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px 0px;
+    padding-left: 40px;
+    border-radius: 50px;
+    text-align: left;
+    position: relative;
+}
+
+.heading{
+    font-size: 25px;
+}
+
+/* .item-text{
+} */
+
+.item-btns{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+
+.item-btns>button{
+    margin-top: 10px;
+}
+
+.editForm{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    margin: 0px;
+}
+
+.editForm>input{
+    width: 220px;
+}
+
+
+
+.editForm>label:nth-child(3){
+    margin-left: 0px;
+}
