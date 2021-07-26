@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Frontend_THA/day-21/build/static/css/main.1a4801ed.chunk.css",
+    "main.js": "/Frontend_THA/day-21/build/static/js/main.d195fed2.chunk.js",
+    "main.js.map": "/Frontend_THA/day-21/build/static/js/main.d195fed2.chunk.js.map",
+    "runtime-main.js": "/Frontend_THA/day-21/build/static/js/runtime-main.133d5bf7.js",
+    "runtime-main.js.map": "/Frontend_THA/day-21/build/static/js/runtime-main.133d5bf7.js.map",
+    "static/js/2.c032a1d5.chunk.js": "/Frontend_THA/day-21/build/static/js/2.c032a1d5.chunk.js",
+    "static/js/2.c032a1d5.chunk.js.map": "/Frontend_THA/day-21/build/static/js/2.c032a1d5.chunk.js.map",
+    "static/js/3.cce098b2.chunk.js": "/Frontend_THA/day-21/build/static/js/3.cce098b2.chunk.js",
+    "static/js/3.cce098b2.chunk.js.map": "/Frontend_THA/day-21/build/static/js/3.cce098b2.chunk.js.map",
+    "index.html": "/Frontend_THA/day-21/build/index.html",
+    "static/css/main.1a4801ed.chunk.css.map": "/Frontend_THA/day-21/build/static/css/main.1a4801ed.chunk.css.map",
+    "static/js/2.c032a1d5.chunk.js.LICENSE.txt": "/Frontend_THA/day-21/build/static/js/2.c032a1d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.133d5bf7.js",
+    "static/js/2.c032a1d5.chunk.js",
+    "static/css/main.1a4801ed.chunk.css",
+    "static/js/main.d195fed2.chunk.js"
+  ]
+}
