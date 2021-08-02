@@ -1,0 +1,67 @@
+
+.App {
+  text-align: center;
+}
+
+.memeCard {
+  color: white;
+  width: 250px;
+  height: 300px;
+  background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+padding-top: 30px;
+margin: 20px 10px 0px 10px;
+}
+
+.memeCard:hover {
+  cursor: pointer;
+}
+
+.memeCard img {
+  width: 200px;
+  height: 200px;
+}
+.memes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.editMeme img {
+  height: 400px;
+}
+
+button{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+background-color: rgba(255, 255, 255, 0.199);
+margin-top: 30px;
+}
+
+button:hover{
+color:#000000;
+background-color:#FFFFFF;
+cursor: pointer;
+}
+
+
+input{
+  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+  margin: 20px 10px;
+  padding: 5px;
+  width: 200px;
+}
