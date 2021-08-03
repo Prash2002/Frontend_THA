@@ -11,9 +11,6 @@ const useFetch = (url) => {
             setData(jsonData);
         }
         fetchApi();
-        // return () => {
-        //     // cleanup
-        // }
     }, []);
 
     
