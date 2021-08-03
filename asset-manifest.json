@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Frontend_THA/day-22/build/static/css/main.1242f0e8.chunk.css",
-    "main.js": "/Frontend_THA/day-22/build/static/js/main.23c994cf.chunk.js",
-    "main.js.map": "/Frontend_THA/day-22/build/static/js/main.23c994cf.chunk.js.map",
-    "runtime-main.js": "/Frontend_THA/day-22/build/static/js/runtime-main.e7e2117d.js",
-    "runtime-main.js.map": "/Frontend_THA/day-22/build/static/js/runtime-main.e7e2117d.js.map",
-    "static/js/2.27a24bff.chunk.js": "/Frontend_THA/day-22/build/static/js/2.27a24bff.chunk.js",
-    "static/js/2.27a24bff.chunk.js.map": "/Frontend_THA/day-22/build/static/js/2.27a24bff.chunk.js.map",
-    "index.html": "/Frontend_THA/day-22/build/index.html",
-    "static/css/main.1242f0e8.chunk.css.map": "/Frontend_THA/day-22/build/static/css/main.1242f0e8.chunk.css.map",
-    "static/js/2.27a24bff.chunk.js.LICENSE.txt": "/Frontend_THA/day-22/build/static/js/2.27a24bff.chunk.js.LICENSE.txt"
+    "main.css": "/Frontend_THA/day-23/build/static/css/main.6e6c2595.chunk.css",
+    "main.js": "/Frontend_THA/day-23/build/static/js/main.b96011d0.chunk.js",
+    "main.js.map": "/Frontend_THA/day-23/build/static/js/main.b96011d0.chunk.js.map",
+    "runtime-main.js": "/Frontend_THA/day-23/build/static/js/runtime-main.ac87ad7c.js",
+    "runtime-main.js.map": "/Frontend_THA/day-23/build/static/js/runtime-main.ac87ad7c.js.map",
+    "static/js/2.da86bc2f.chunk.js": "/Frontend_THA/day-23/build/static/js/2.da86bc2f.chunk.js",
+    "static/js/2.da86bc2f.chunk.js.map": "/Frontend_THA/day-23/build/static/js/2.da86bc2f.chunk.js.map",
+    "static/js/3.1c13a753.chunk.js": "/Frontend_THA/day-23/build/static/js/3.1c13a753.chunk.js",
+    "static/js/3.1c13a753.chunk.js.map": "/Frontend_THA/day-23/build/static/js/3.1c13a753.chunk.js.map",
+    "index.html": "/Frontend_THA/day-23/build/index.html",
+    "static/css/main.6e6c2595.chunk.css.map": "/Frontend_THA/day-23/build/static/css/main.6e6c2595.chunk.css.map",
+    "static/js/2.da86bc2f.chunk.js.LICENSE.txt": "/Frontend_THA/day-23/build/static/js/2.da86bc2f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7e2117d.js",
-    "static/js/2.27a24bff.chunk.js",
-    "static/css/main.1242f0e8.chunk.css",
-    "static/js/main.23c994cf.chunk.js"
+    "static/js/runtime-main.ac87ad7c.js",
+    "static/js/2.da86bc2f.chunk.js",
+    "static/css/main.6e6c2595.chunk.css",
+    "static/js/main.b96011d0.chunk.js"
   ]
 }
