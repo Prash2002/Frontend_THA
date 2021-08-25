@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+* {
+  padding: 10px;
+}
+
+input {
+  margin: 20px;
+}
